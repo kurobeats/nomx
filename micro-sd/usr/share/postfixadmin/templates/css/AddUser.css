@@ -1,0 +1,61 @@
+﻿
+
+.user_register input[type="text"],
+.user_register input[type="email"],
+.user_register input[type="password"],
+.user_register input[type="checkbox"],
+.user_register select
+{
+	display: block;
+	width: 400px;
+	padding: 10px;
+	color: rgb(0,0,0);
+	border: 1px #035FCD solid;
+    margin:0 auto;
+}
+
+.user_register label {
+		display: block;
+		margin-bottom: 5px;
+        padding-left:50px;
+}
+
+
+.back-reg
+{
+    width:500px;
+    margin: 0 auto;
+    background-color:#ffffff;
+    padding-bottom:10px;
+}
+
+input.btn
+{
+    display:block;
+        margin:0px auto;
+}
+
+.btn {
+		background-color: #035FCD;
+		color: white;
+		height: 40px;
+		border-radius: 0 !important;
+        width:200px; 
+	 }
+
+.btn:hover 
+    {
+		background-color: #035FCD;
+		color: white;
+    }
+
+a.btn {
+		color: white;
+		text-align: center;
+		font-size: 20px;
+		text-decoration: none;
+}
+.btn:active
+{
+  transform: translateY(1px);
+}

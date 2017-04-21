@@ -1,0 +1,83 @@
+Subject: Fwd: Welcome
+References: <20161025232905.755E717@nomx000000002652c28d.local>
+To: "will@donaldson.net >> Will Donaldson" <will@donaldson.net>
+From: Test <test@example.com>
+X-Forwarded-Message-Id: <20161025232905.755E717@nomx000000002652c28d.local>
+Message-ID: <072c3db0-fad3-d9b3-bae2-465605690668@example.com>
+Date: Tue, 25 Oct 2016 19:30:21 -0400
+User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:45.0) Gecko/20100101
+ Thunderbird/45.4.0
+MIME-Version: 1.0
+In-Reply-To: <20161025232905.755E717@nomx000000002652c28d.local>
+Content-Type: multipart/alternative;
+ boundary="------------7A8B892DABF1A24BF728C9CC"
+
+This is a multi-part message in MIME format.
+--------------7A8B892DABF1A24BF728C9CC
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 7bit
+
+
+
+
+-------- Forwarded Message --------
+Subject: 	Welcome
+Date: 	Tue, 25 Oct 2016 23:29:05 +0000 (UTC)
+From: 	admin@example.com
+To: 	test@example.com
+
+
+
+Hi,
+
+Welcome to your new account.
+
+
+--------------7A8B892DABF1A24BF728C9CC
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  </head>
+  <body bgcolor="#FFFFFF" text="#000000">
+    <p><br>
+    </p>
+    <div class="moz-forward-container"><br>
+      <br>
+      -------- Forwarded Message --------
+      <table class="moz-email-headers-table" border="0" cellpadding="0"
+        cellspacing="0">
+        <tbody>
+          <tr>
+            <th align="RIGHT" nowrap="nowrap" valign="BASELINE">Subject:
+            </th>
+            <td>Welcome</td>
+          </tr>
+          <tr>
+            <th align="RIGHT" nowrap="nowrap" valign="BASELINE">Date: </th>
+            <td>Tue, 25 Oct 2016 23:29:05 +0000 (UTC)</td>
+          </tr>
+          <tr>
+            <th align="RIGHT" nowrap="nowrap" valign="BASELINE">From: </th>
+            <td><a class="moz-txt-link-abbreviated" href="mailto:admin@example.com">admin@example.com</a></td>
+          </tr>
+          <tr>
+            <th align="RIGHT" nowrap="nowrap" valign="BASELINE">To: </th>
+            <td><a class="moz-txt-link-abbreviated" href="mailto:test@example.com">test@example.com</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <br>
+      <pre>Hi,
+
+Welcome to your new account.
+</pre>
+    </div>
+  </body>
+</html>
+
+--------------7A8B892DABF1A24BF728C9CC--

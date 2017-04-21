@@ -1,0 +1,20 @@
+Return-Path: <Admin@example.com>
+Delivered-To: <matt@huntersnet.net>
+Received: from nomx000000008f9a4711.local
+	by nomx000000008f9a4711.local (Dovecot) with LMTP id zU+lDuXtD1g3DAAAKHD5Zw
+	for <matt@huntersnet.net>; Tue, 25 Oct 2016 23:42:29 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by nomx000000008f9a4711.local (Postfix) with ESMTP id 0D8D7596
+	for <matt@huntersnet.net>; Tue, 25 Oct 2016 23:41:49 +0000 (UTC)
+To: matt@huntersnet.net
+From: Admin@example.com
+Subject: Welcome
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+Message-Id: <20161025234149.0D8D7596@nomx000000008f9a4711.local>
+Date: Tue, 25 Oct 2016 23:41:49 +0000 (UTC)
+
+Hi,
+
+Welcome to your new account.

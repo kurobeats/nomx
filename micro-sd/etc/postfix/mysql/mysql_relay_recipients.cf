@@ -1,0 +1,5 @@
+user = postfixadmin
+password = death
+hosts = 127.0.0.1
+dbname = postfixadmin
+query = SELECT 1 FROM `handshake` WHERE `domain` = '%s'

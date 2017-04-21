@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+	html , body {
+		 padding:0px;
+		 margin:0px;
+		}
+.header{
+	
+	width:100%;
+	height:60px;
+	background-color:#035FCD;
+
+}
+
+.container{
+	
+		width:100%;
+		height:100%;
+		
+		
+		}
+		
+		.content{
+				margin-top:6%;
+			}
+		.box{	
+				margin-left:40%;
+				margin-top:-22%;
+				margin-right:2%;
+				
+				
+				}
+		.hh{
+				margin-left:40%;
+				
+				}
+		
+.headerr{
+	
+	text-align:center;
+}
+
+#h{
+	margin-left:2%;
+	margin-top:10px;
+	}
+
+.img{
+		margin-left:40%;
+	}
+	
+.h23{
+		margin-left:2%;
+		margin-top:-10%;
+	}

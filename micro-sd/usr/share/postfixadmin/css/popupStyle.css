@@ -1,0 +1,168 @@
+﻿body 
+{
+    background:  linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1) 
+    )
+    /*background-color:#F0F0F0;*/
+}
+.back
+{
+    width:500px;
+    height:450px;
+    margin: 0 auto;
+    margin-top:5px;
+    background-color:#FFFFFF;
+}
+.back-reg
+{
+    width:500px;
+    height:570px;
+    margin: 0 auto;
+    background-color:#FFFFFF;
+}
+h3,h5
+{
+    text-align:center;
+}
+.modal-body 
+{
+	padding: 2px 16px;
+	border:none;
+}
+
+
+/*	login form css	*/
+
+.user_login label {
+		display: block;
+		margin-bottom: 5px;
+        padding-left:50px;
+}
+
+@media(max-width: 520px)
+{
+	.back
+	{
+		width: 100%;
+	}
+    .user_login label 
+    {
+        padding-left:40px;
+    }
+
+}
+@media(max-width: 455px) 
+{
+    .user_login label 
+    {
+        padding-left:30px;
+    }
+
+}
+
+input.btn
+{
+    display:block;
+        margin:0px auto;
+}
+.btn {
+		background-color: #035FCD;
+		color: white;
+		height: 40px;
+		border-radius: 0 !important;
+        width:60%;
+        margin:auto;
+		}
+
+.btn:hover {
+		background-color: #035FCD;
+		color: white;
+}
+
+a.btn {
+		color: white;
+		text-align: center;
+		font-size: 20px;
+		text-decoration: none;
+}
+.btn:active
+{
+  transform: translateY(1px);
+}
+
+.forgot_password 
+{
+	text-decoration: none;
+	color: #035FCD;
+    text-align:center;
+}
+a.forgot_password:hover 
+{
+	color: #035FCD;
+	text-decoration: none;
+}
+
+a.forgot_password:focus 
+{
+	color: #035FCD;
+	text-decoration: none;
+}
+
+.user_login input[type="text"],
+.user_login input[type="email"],
+.user_login input[type="password"] 
+{
+	display: block;
+	width: 80%;
+	padding: 10px;
+	color: rgb(0,0,0);
+	border: 1px #035FCD solid;
+    margin:0 auto;
+        
+}
+
+
+.user_register label {
+		display: block;
+		margin-bottom: 5px;
+}
+
+.user_register input[type="text"],
+.user_register input[type="email"],
+.user_register input[type="password"] 
+{
+	display: block;
+	width: 80%;
+	padding: 10px;
+	color: rgb(0,0,0);
+	border: 1px #035FCD solid;
+    margin:0 auto;
+}
+
+.user_register label {
+		display: block;
+		margin-bottom: 5px;
+        padding-left:50px;
+}
+
+@media(max-width: 520px)
+{
+	.back-reg
+	{
+		width: 100%;
+	}
+    .user_register label 
+    {
+        padding-left:40px;
+    }
+
+}
+@media(max-width: 455px) 
+{
+    .user_register label 
+    {
+        padding-left:30px;
+    }
+
+}

@@ -1,0 +1,20 @@
+Return-Path: <test@example.com>
+Delivered-To: <test@example.com>
+Received: from nomx000000002652c28d.local
+	by nomx000000002652c28d.local (Dovecot) with LMTP id 4AryKx7rD1hiCwAAgU3Zcg
+	for <test@example.com>; Tue, 25 Oct 2016 23:30:38 +0000
+Received: from [10.1.10.163] (unknown [10.1.10.163])
+	by nomx000000002652c28d.local (Postfix) with ESMTPSA id 6BAF2300
+	for <test@example.com>; Tue, 25 Oct 2016 23:30:38 +0000 (UTC)
+To: test@example.com
+From: Test <test@example.com>
+Subject: test
+Message-ID: <e514ea0f-5efd-1fe6-e222-1e1b1eccf4d8@example.com>
+Date: Tue, 25 Oct 2016 19:30:35 -0400
+User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:45.0) Gecko/20100101
+ Thunderbird/45.4.0
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 7bit
+
+

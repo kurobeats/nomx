@@ -1,0 +1,5 @@
+user = postfixadmin
+password = death
+hosts = 127.0.0.1
+dbname = postfixadmin
+query = SELECT CONCAT(smtp,destination,port) FROM handshake WHERE domain = '%s'

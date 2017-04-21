@@ -1,0 +1,57 @@
+#debug_peer_list = 0.0.0.0/0
+#smtpd_tls_loglevel = 2
+#smtpd_tls_received_header = yes
+
+smtpd_banner = $myhostname ESMTP $mail_name (Debian/GNU)
+biff = no
+append_dot_mydomain = no
+readme_directory = no
+
+smtpd_tls_cert_file=/etc/ssl/certs/cacert.pem
+smtpd_tls_key_file=/etc/ssl/private/cakey.pem
+smtpd_tls_CAfile=/etc/ssl/certs/cacert.pem
+smtpd_tls_session_cache_database = btree:${data_directory}/smtpd_scache
+smtp_tls_session_cache_database = btree:${data_directory}/smtp_scache
+smtpd_tls_security_level = may
+smtpd_tls_mandatory_exclude_ciphers = aNULL, MD5
+smtpd_starttls_timeout = 300s
+#smtpd_enforce_tls = yes
+smtpd_use_tls=yes
+smtpd_tls_mandatory_protocols = !SSLv2, !SSLv3
+smtpd_sasl_type = dovecot
+smtpd_sasl_path = private/auth
+smtpd_sasl_auth_enable = yes
+
+smtpd_recipient_restrictions =
+        permit_sasl_authenticated,
+	#reject_unverified_recipient,
+	#reject_non_fqdn_hostname,
+	reject_unauth_pipelining,
+	permit_auth_destination,
+        permit_mynetworks,
+        reject
+	#reject_unauth_destination
+
+
+smtpd_sender_restrictions = permit_sasl_authenticated, permit_mynetworks
+alias_maps = hash:/etc/aliases
+alias_database = hash:/etc/aliases
+mydestination = $myhostname
+relayhost = 
+#mynetworks = 127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+mynetworks = 127.0.0.0/8
+mailbox_size_limit = 0
+recipient_delimiter = +
+inet_interfaces = all
+inet_protocols = ipv4
+virtual_transport = lmtp:unix:private/dovecot-lmtp
+virtual_mailbox_domains = mysql:/etc/postfix/mysql/virtual-mailbox-domains.cf
+virtual_mailbox_maps = mysql:/etc/postfix/mysql/virtual-mailbox-maps.cf
+virtual_alias_maps = mysql:/etc/postfix/mysql/virtual-alias-maps.cf, mysql:/etc/postfix/mysql/virtual-email2email.cf
+virtual_alias_maps = mysql:/etc/postfix/mysql/virtual-alias-maps.cf
+#transport_maps = mysql:/etc/postfx/mysql/handshake.cf
+smtp_host_lookup=native,dns
+ignore_mx_lookup_error = yes
+relay_recipient_maps = mysql:/etc/postfix/mysql/mysql_relay_recipients.cf
+transport_maps = mysql:/etc/postfix/mysql/mysql_handshake.cf
+smtp_tls_policy_maps = mysql:/etc/postfix/mysql/mysql_tls_policy.cf

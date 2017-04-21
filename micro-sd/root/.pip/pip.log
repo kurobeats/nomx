@@ -1,0 +1,24 @@
+------------------------------------------------------------
+/usr/bin/pip run on Mon Nov  2 17:00:16 2015
+Downloading/unpacking cog
+
+  Getting page http://pypi.python.org/simple/cog
+  URLs to search for versions for cog:
+  * http://pypi.python.org/simple/cog/
+  Getting page http://pypi.python.org/simple/cog/
+  Analyzing links from page https://pypi.python.org/simple/cog/
+  Could not find any downloads that satisfy the requirement cog
+
+No distributions at all found for cog
+
+Exception information:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/pip/basecommand.py", line 104, in main
+    status = self.run(options, args)
+  File "/usr/lib/python2.7/dist-packages/pip/commands/install.py", line 245, in run
+    requirement_set.prepare_files(finder, force_root_egg_info=self.bundle, bundle=self.bundle)
+  File "/usr/lib/python2.7/dist-packages/pip/req.py", line 978, in prepare_files
+    url = finder.find_requirement(req_to_install, upgrade=self.upgrade)
+  File "/usr/lib/python2.7/dist-packages/pip/index.py", line 157, in find_requirement
+    raise DistributionNotFound('No distributions at all found for %s' % req)
+DistributionNotFound: No distributions at all found for cog

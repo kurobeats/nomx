@@ -1,0 +1,6 @@
+# BEGIN FOR POSTFIXADMIN
+
+Alias /postfixadmin /usr/share/postfixadmin
+RedirectMatch ^/$ /postfixadmin/
+
+# END FOR POSTFIXADMIN

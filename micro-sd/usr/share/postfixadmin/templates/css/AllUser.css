@@ -1,0 +1,89 @@
+﻿
+#welcome
+{
+    height:150px;
+    min-width:1080px;
+    margin-top:80px;
+}
+p
+{  
+	font-family: Helvetica,Arial,sans-serif;
+	line-height: 1em;
+	text-align:center;
+    padding-top:20px;
+}
+
+#menudiv   
+{
+    height:50px;
+    width:1200px;
+    margin:0 auto;
+    margin-top:50px;
+}
+
+.menu
+{
+    border: 1px #699fef solid;
+    float: left;
+    border-radius: 0 !important;
+    background-color: #699fef;
+    color: white;
+    margin-left:10px;
+}
+.menu:hover
+{
+    border: 1px #484545 solid;
+    background-color: #696565;
+    color: white;
+}
+.active
+{
+    border: 1px #484545 solid;
+    background-color: #696565;
+    color: white;
+}
+
+.Usertable
+{
+    width:900px;
+    margin:0 auto;
+}
+
+
+.css-serial {
+  counter-reset: serial-number;  /* Set the serial number counter to 0 */
+}
+
+.css-serial tbody td:first-child:before {
+  counter-increment: serial-number;  /* Increment the serial number counter */
+  content: counter(serial-number);  /* Display the counter */
+}
+
+thead td
+{
+    background-color:#696565;
+    color:white;
+    font-size:1.5em;
+    text-align:center;
+}
+tbody tr
+{
+    height:50px;
+    text-align:center;
+    font-size:medium;
+}
+#actionBtn
+{
+    border: 1px #699fef solid;
+    border-radius: 0 !important;
+    background-color: #699fef;
+    color: white;
+}
+
+.btn
+{
+    border: 1px #699fef solid;
+    border-radius: 0 !important;
+    background-color: #699fef;
+    color: white;
+}
